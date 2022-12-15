@@ -1,5 +1,6 @@
 # my-catalogue
-
+test.vue文件
+testPar.vue 和 catalog.vue采用父子组件实现
 ## Project setup
 ```
 npm install
