@@ -48,7 +48,7 @@ export default {
     onScroll() {
       let currScroll = this.$refs.allScrollTop.scrollTop; // 获取滚动条滚了多远
       //   特殊情况 head1
-      if (currScroll < this.titleList[0].title) {
+      if (currScroll < currScroll < document.getElementById(this.titleList[0].title).offsetTop) {
         this.activeTitle = this.titleList[0].title;
         return;
       }
