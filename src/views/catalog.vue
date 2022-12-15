@@ -37,7 +37,7 @@ export default {
     };
   },
   mounted() {
-    this.throttleScroll = this.throttle2(this.onScroll, 200);
+    this.throttleScroll = this.throttle2(this.onScroll, 20);
     this.activeTitle = this.titleList[0].title;
     window.addEventListener('scroll', this.throttleScroll, true);
   },
